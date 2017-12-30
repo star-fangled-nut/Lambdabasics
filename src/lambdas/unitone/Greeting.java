@@ -1,4 +1,4 @@
-package com.example;
+package lambdas.unitone;
 
 @FunctionalInterface
 public interface Greeting {

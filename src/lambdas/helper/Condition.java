@@ -1,4 +1,6 @@
-package com.example;
+package lambdas.helper;
+
+import lambdas.unitone.Person;
 
 @FunctionalInterface
 public interface Condition {

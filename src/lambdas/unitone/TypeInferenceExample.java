@@ -1,4 +1,4 @@
-package com.example;
+package lambdas.unitone;
 
 public class TypeInferenceExample {
     public static void main(String[] args) {

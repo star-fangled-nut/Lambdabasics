@@ -1,4 +1,6 @@
-package com.example;
+package lambdas.unitone;
+
+import lambdas.helper.PersonHelper;
 
 import java.util.Collections;
 import java.util.List;
@@ -9,8 +11,8 @@ public class ExerciseSolutionWithLambdas {
 
         Collections.sort(people, (firstPerson, secondPerson) -> firstPerson.getLastName().compareTo(secondPerson.getLastName()));
 
-        PersonHelper.printConditionally(people, p -> true);
+        PersonHelper.printConditionallyWithCustomInterface(people, p -> true);
 
-        PersonHelper.printConditionally(people, p -> p.getLastName().startsWith("C"));
+        PersonHelper.printConditionallyWithCustomInterface(people, p -> p.getLastName().startsWith("C"));
     }
 }

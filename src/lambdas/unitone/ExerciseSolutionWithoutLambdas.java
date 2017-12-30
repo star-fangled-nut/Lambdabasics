@@ -1,4 +1,7 @@
-package com.example;
+package lambdas.unitone;
+
+import lambdas.helper.Condition;
+import lambdas.helper.PersonHelper;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -17,7 +20,7 @@ public class ExerciseSolutionWithoutLambdas {
         });
 
         PersonHelper.printAll(people);
-        PersonHelper.printConditionally(people, new Condition() {
+        PersonHelper.printConditionallyWithCustomInterface(people, new Condition() {
 
             @Override
             public boolean test(Person p) {
