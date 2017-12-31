@@ -2,7 +2,7 @@ package lambdas.unittwo;
 
 import java.util.function.BiConsumer;
 
-public class ExceptionHandlingExamples {
+public class ExceptionHandlingExample {
     public static void main(String[] args) {
         int[] someNumbers = {1, 2, 3, 4};
         int keyInteger = 0;

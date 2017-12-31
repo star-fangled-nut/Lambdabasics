@@ -6,7 +6,7 @@ import lambdas.helper.PersonHelper;
 import java.util.Collections;
 import java.util.List;
 
-public class StandardFunctionalInterfaceExamples {
+public class StandardFunctionalInterfaceExample {
     public static void main(String[] args) {
         List<Person> people = PersonHelper.getPeople();
 

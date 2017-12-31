@@ -6,7 +6,7 @@ import lambdas.unitone.Person;
 import java.util.Collections;
 import java.util.List;
 
-public class FurtherStandardFunctionalInterfaceExamples {
+public class FurtherStandardFunctionalInterfaceExample {
     public static void main(String[] args) {
         List<Person> people = PersonHelper.getPeople();
 
